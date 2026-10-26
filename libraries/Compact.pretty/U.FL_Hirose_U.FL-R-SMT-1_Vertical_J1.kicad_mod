@@ -1,0 +1,350 @@
+(footprint "U.FL_Hirose_U.FL-R-SMT-1_Vertical_J1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Hirose U.FL Coaxial (https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-01&productname=U.FL-R-SMT-1(01)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940668)")
+	(tags "Hirose U.FL Coaxial")
+	(property "Reference" "J1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f26d38aa-e3cf-4dda-8868-b0103e6427cf")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Conn_Coaxial"
+		(at 0 3.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "36f846f7-3c82-40e0-baba-a92707ab479a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd4ced3e-a83e-425e-a6e6-e1e98c2163c3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c78eeca7-5270-4672-8ac3-ec5c0681d9c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C88374"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1c86c7c-7cf7-4ae5-8c49-8e5d6a62a190")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "HRS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b946c20-148e-485f-9fa9-76dceeed947a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "U.FL-R-SMT-1(80)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "52bdc1fe-9061-4590-8057-2fc9d6b722d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property ki_fp_filters "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*")
+	(sheetname "/ESP32-C3 + SX1281 Core (UFL)/")
+	(sheetfile "esp32c3_sx1281_lite.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(xy 1.6 -1.8) (xy 1.8 -1.8) (xy 1.8 1.8) (xy 1.6 1.8) (xy 1.6 2.15) (xy -1.25 2.15) (xy -1.25 1.6)
+			(xy -1.55 1.6) (xy -1.55 0.8) (xy -2.2 0.8) (xy -2.2 -0.8) (xy -1.55 -0.8) (xy -1.55 -1.8) (xy -1.25 -1.8)
+			(xy -1.25 -2.15) (xy 1.6 -2.15)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dead7647-a334-44ac-86b6-7521b84cd9b8")
+	)
+	(fp_line
+		(start -1.55 0.3)
+		(end -1.55 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f3685ac-f8df-450b-9719-b4a2f3a36aa8")
+	)
+	(fp_line
+		(start -1.55 0.3)
+		(end -1.3 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c9431f57-8a38-40a1-a41b-6d3088843497")
+	)
+	(fp_line
+		(start -1.4 -0.3)
+		(end -1.55 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "026dc50a-75ba-4ef9-ab01-037578a99df5")
+	)
+	(fp_line
+		(start -1.4 -0.3)
+		(end -1.3 -0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "977d929e-7e07-4683-b79b-ac8392b2a415")
+	)
+	(fp_line
+		(start -1.3 -0.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "19f25371-5150-4e24-958d-d50930101f04")
+	)
+	(fp_line
+		(start -1.3 0.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec59e664-6c31-4fa2-ab5e-3d91fb116f24")
+	)
+	(fp_line
+		(start -0.9 -1.5)
+		(end -0.9 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fd764308-bff7-417d-ac45-fba8ad463015")
+	)
+	(fp_line
+		(start -0.9 -1.5)
+		(end 0.9 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "928d65a4-6c58-4094-b937-8157b6fea1ed")
+	)
+	(fp_line
+		(start -0.9 -1.3)
+		(end -1.3 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1ea61ac1-d3b2-4d76-b21d-a936cbed664b")
+	)
+	(fp_line
+		(start -0.9 1.3)
+		(end -1.3 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "014eea2b-6390-4e1e-a8a5-69052b701fdd")
+	)
+	(fp_line
+		(start -0.9 1.5)
+		(end -0.9 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "88f3c69a-3cd3-4291-80e1-f62beb95529b")
+	)
+	(fp_line
+		(start -0.9 1.5)
+		(end 0.9 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c3afb86-8d54-4b81-8015-d5bcccf40d30")
+	)
+	(fp_line
+		(start 0.9 -1.5)
+		(end 0.9 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2c8b8a5-66f2-4cfd-ab55-b53dff9f951c")
+	)
+	(fp_line
+		(start 0.9 1.5)
+		(end 0.9 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "db2eb794-ea8b-46db-92d4-c2d1dfe4b65c")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end 0.9 -1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "032c6dfe-8cd1-4dce-a192-6248051f727c")
+	)
+	(fp_line
+		(start 1.3 -1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "be08d54f-f1fd-43b3-beaf-0f1ecf78d85d")
+	)
+	(fp_line
+		(start 1.3 1.3)
+		(end 0.9 1.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e9e20793-04c7-4100-9f25-9c7babfa87b1")
+	)
+	(pad "1" smd roundrect
+		(at -1.525 0)
+		(size 1.05 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0)
+		(uuid "e1a51dac-b241-4fab-84bb-44abfd342884")
+	)
+	(pad "2" smd roundrect
+		(at 0 -1.475)
+		(size 2.2 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2380952381)
+		(solder_mask_margin 0)
+		(uuid "fcd53d6f-3b22-44d7-8b4c-80a08a5d5425")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.475)
+		(size 2.2 1.05)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2380952381)
+		(solder_mask_margin 0)
+		(uuid "a570e922-2905-4660-a229-147a2514f9c2")
+	)
+	(zone
+		(layer "F.Cu")
+		(uuid "3bbc8b3d-04b1-46d2-afd8-a8eade907da5")
+		(name "top_keepout")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy 1.1 -0.95) (xy -0.99 -0.95) (xy -0.99 0.95) (xy 1.1 0.95)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_Coaxial.3dshapes/U.FL_Hirose_U.FL-R-SMT-1_Vertical.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

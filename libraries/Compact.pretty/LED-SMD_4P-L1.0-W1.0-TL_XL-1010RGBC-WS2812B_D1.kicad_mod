@@ -1,0 +1,166 @@
+(footprint "LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B_D1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "D1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "20604405-3ea1-4751-baab-6282501cf228")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XL-1010RGBC-WS2812B"
+		(at 0 4.42 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2697378-ba4e-45fe-8b42-62e6e117a361")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72160540-fb15-4f7d-ad90-d8d057f0412f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c437a7c-5390-47ff-8f27-920e83b60912")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C5349953"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62dcdb1a-9fd3-4905-8586-c3f564db7e35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C5349953"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53c3e4cb-1a6a-414c-a425-da889eb775f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "XINGLIGHT"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c79edc6-4845-4743-be75-9df7d6b69ce7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "XL-1010RGBC-2812B"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e576bd38-45c3-48fe-95d1-6fb9ba2384a1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/ESP32-C3 + SX1281 Core (UFL)/")
+	(sheetfile "esp32c3_sx1281_lite.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -0.8 -0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "57dfe6ab-1167-4cb1-850c-5df479b57e55")
+	)
+	(fp_circle
+		(center -0.5 -0.5)
+		(end -0.47 -0.5)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "160d3f0b-fe09-4019-8e7d-1f38832e7b0d")
+	)
+	(pad "1" smd rect
+		(at -0.42 -0.42)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "66f4d8ed-5b8e-4bf3-81f9-9758ce03ee38")
+	)
+	(pad "2" smd rect
+		(at 0.42 -0.42)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "35de9306-1ee1-4876-9459-52585e25afe0")
+	)
+	(pad "3" smd rect
+		(at -0.42 0.42)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "4aff954a-9678-4ce4-b05b-f18fcb8692c2")
+	)
+	(pad "4" smd rect
+		(at 0.42 0.42)
+		(size 0.45 0.45)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "37260b1f-3d30-499e-a64d-11cf2e81ef38")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/models/LED-SMD_4P-L1.0-W1.0-TL_XL-1010RGBC-WS2812B.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

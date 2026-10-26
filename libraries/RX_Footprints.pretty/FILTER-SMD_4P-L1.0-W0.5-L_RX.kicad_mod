@@ -1,0 +1,184 @@
+(footprint "FILTER-SMD_4P-L1.0-W0.5-L_RX"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "FL1"
+		(at 0 -4.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d23bc652-097d-468a-96dc-28345f9fe362")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2450FM07D0034T"
+		(at 0 4.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "effcb423-e899-4ee2-a23e-19f90d03217f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C2651081.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07ddedb3-8787-43d7-b132-39abc97811c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d95e9b1e-cd22-433a-9c65-7cb435460237")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C2651081"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd9747d4-664b-466c-815d-02ad63775c23")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "JOHANSON(约翰逊)"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca96641e-4a08-468a-82d3-722cc1259dab")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "2450FM07D0034T"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ec9882f-270c-4a23-b534-259c5d7e5450")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part_1" "C2651081"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84985bc9-e638-4f01-8697-b6150bd856c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2651081"
+		(at 0 0 270)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f9f49457-ba88-453e-af40-8eb05f6464da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -0.89 0)
+		(end -0.84 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "9e692fda-d229-45c6-a971-37398c796970")
+	)
+	(fp_rect
+		(start -0.85 -0.45)
+		(end 0.85 0.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e5605970-7a82-463d-9690-77b5a72a2a7f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "96f1b795-8403-4d9e-bc60-d3222b14896e")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.07)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.58 0)
+		(size 0.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "109c105c-e14f-49d0-971e-6c74c7bb49ac")
+	)
+	(pad "2" smd rect
+		(at 0 0.3)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b622554d-df78-4989-9c65-6b65f920f936")
+	)
+	(pad "3" smd rect
+		(at 0.58 0)
+		(size 0.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0825c3cc-9632-434f-a158-dba4dcc2de57")
+	)
+	(pad "4" smd rect
+		(at 0 -0.3)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "87edb98a-aa80-4010-8139-25e246082eeb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../shared/libs/OpenRX-Shared.3dshapes/FILTER-SMD_4P-L1.0-W0.5-H0.4-L.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

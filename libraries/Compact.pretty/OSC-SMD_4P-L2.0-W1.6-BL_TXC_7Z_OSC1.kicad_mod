@@ -1,0 +1,180 @@
+(footprint "OSC-SMD_4P-L2.0-W1.6-BL_TXC_7Z_OSC1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "OSC1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7ed53949-a3f4-4c06-9016-8d08f370b2fa")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "OW7EL89CENUNFAYLC-52M"
+		(at 0 4.6 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c5f35e87-d702-4a36-9de5-4abbd782fe33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b1ef5277-942f-46d5-b2d1-ba6544ef73c7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "907eee7b-9e74-40d4-9f49-e36d57e3b368")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C22434896"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a01595f8-c8a2-48e7-9a14-c312c6f522ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C22434896"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6c202e4-da26-4796-8304-47d95a1d4df6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "YXC Crystal Oscillators"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3232162d-81dd-419c-9400-792fbd9f5d1c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "MPN" "OW7EL89CENUNFAYLC-52M"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "485cb21f-d54d-4ed8-b136-b91289a8cc7e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(sheetname "/ESP32-C3 + SX1281 Core (UFL)/")
+	(sheetfile "esp32c3_sx1281_lite.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -0.9 1)
+		(end -0.78 1)
+		(stroke
+			(width 0.24)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "ac86c72e-58c8-4b77-ac8f-b87abc9462cc")
+	)
+	(fp_rect
+		(start -1.4 -1.2)
+		(end 1.4 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e4a14712-8038-45fe-837b-827e8c14dd1e")
+	)
+	(fp_circle
+		(center -1 0.8)
+		(end -0.97 0.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "0ab244ab-5294-4497-bd67-f9a1ff5f0ed1")
+	)
+	(pad "1" smd rect
+		(at -0.9 0.6 270)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "4b54e705-7ffb-40dd-910a-59ecd9c3e46d")
+	)
+	(pad "2" smd rect
+		(at 0.9 0.6 270)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "47498468-3ed4-48aa-a6da-e2a800dd5aa0")
+	)
+	(pad "3" smd rect
+		(at 0.9 -0.6 270)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "f19566eb-2ad9-428d-8bdb-230364e10900")
+	)
+	(pad "4" smd rect
+		(at -0.9 -0.6 270)
+		(size 0.9 0.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "834faa43-8057-4ce4-98bf-028cb7ac8ee0")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/models/OSC-SMD_4P-L2.0-W1.6-BL_TXC_7Z.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

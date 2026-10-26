@@ -1,0 +1,69 @@
+(footprint "WirePad_1.7x0.8_DualSide"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "TP1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a2262a95-1c31-4e18-87f1-afd9c2d34ee8")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RX"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6320ebb2-71f1-442b-aaf3-0e2b3cf98fce")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5f80135-6ca0-4a9b-b6cf-4848d86a3736")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "test point"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "172520a6-6e6a-4821-adae-302c99b3d814")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_pos_files exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.7 0.8)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "b67eb95b-b4e2-4262-a576-55101fff9234")
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 1.7 0.8)
+		(layers "B.Cu" "B.Mask")
+		(roundrect_rratio 0.2)
+		(thermal_bridge_angle 45)
+		(uuid "2689ac70-c2c0-4cdf-b55a-40be6c44574d")
+	)
+	(embedded_fonts no)
+)

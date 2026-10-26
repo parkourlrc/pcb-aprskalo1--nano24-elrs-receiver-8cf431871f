@@ -1,0 +1,209 @@
+(footprint "FILTER-SMD_4P-L1.0-W0.5-L_FL1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "FL1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "5eb5322f-5633-4bcd-bea4-240d541cde27")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2450FM07D0034T"
+		(at 0 4.3 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cc84ecc-0064-4ae0-93e1-05f01618af89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C2651081.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d7808fdf-507a-4c5c-953d-d4f0c35246e1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb4f885b-90c2-44ec-bcf9-79d0d8ec1022")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C2651081"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46bb29d8-d90c-4e88-b509-7dc9f8159038")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "JOHANSON(约翰逊)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "08ff0101-603b-49a7-a1e4-c0afa719354e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "2450FM07D0034T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9f96ddf-f0e8-4c60-b6fb-fcbf0e85fe65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC Part_1" "C2651081"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ddbd25f-5a29-43cd-b264-716e84dd757d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2651081"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07e00e61-da1e-4784-865e-5d141b6e979b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/ESP32-C3 + SX1281 Core (UFL)/")
+	(sheetfile "esp32c3_sx1281_lite.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -0.89 0)
+		(end -0.84 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "617cf580-36a3-4ffc-9016-0f5fb9bec899")
+	)
+	(fp_line
+		(start -0.5 -0.25)
+		(end 0.5 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "433d8ea9-348a-4186-aa24-839d09631eff")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 -0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f4bd07a-6078-45f8-a0fa-5b199c2f9ba0")
+	)
+	(fp_line
+		(start 0.5 -0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "03e118ab-45ff-48fc-8316-746b23a12dae")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end -0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c0d9b943-82dd-41e1-a5cc-9c07213df298")
+	)
+	(pad "1" smd rect
+		(at -0.58 0)
+		(size 0.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "a4eaf008-49a4-4d05-9ad5-39b4511615be")
+	)
+	(pad "2" smd rect
+		(at 0 0.3)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "565a6336-6327-4d8b-989c-d7850e25c2b5")
+	)
+	(pad "3" smd rect
+		(at 0.58 0)
+		(size 0.45 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "a0a47e98-9ad0-4269-812d-dc5b0c3a6db0")
+	)
+	(pad "4" smd rect
+		(at 0 -0.3)
+		(size 0.3 0.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "a1699151-e225-460b-9adc-eeed01ad3486")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/libraries/models/FILTER-SMD_4P-L1.0-W0.5-H0.4-L.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

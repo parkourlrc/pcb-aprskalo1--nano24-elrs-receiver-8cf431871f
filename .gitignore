@@ -1,0 +1,24 @@
+# KiCad local state and automatic backups
+*.kicad_prl
+*.lck
+~*.lck
+*-backups/
+*.bak
+*.bck
+*~
+_autosave-*
+fp-info-cache
+
+# Local tools and temporary output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+tmp/
+dist/
+.DS_Store
+Thumbs.db
+
+# Local secrets/configuration
+.env
+.env.*

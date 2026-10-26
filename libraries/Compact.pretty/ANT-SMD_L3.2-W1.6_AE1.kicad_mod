@@ -1,0 +1,166 @@
+(footprint "ANT-SMD_L3.2-W1.6_AE1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "AE1"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "c72938fc-ad18-4d75-a4ad-6584ba07e1a9")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "2450AT18A100E"
+		(at 0 4 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a69e4c5-d740-438f-b53b-beaddbff66eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://lcsc.com/product-detail/RF-Antenna_JOHANSON_2450AT18A100E_2450AT18A100E_C89334.html"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8bb50d1a-02e4-4354-b640-64e7da54aac6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f3577ea-8d86-49de-9ff0-964adc8eb7b5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C89334"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14068df0-c656-468d-ae1d-d73f8df7ac82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C89334"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3c1ff34-78df-46ed-b20c-806fa5781305")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Johanson Dielectrics"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "426dfcd4-dbf0-4077-8bde-641075c3ca46")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "MPN" "2450AT18A100E"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "553bf56e-14bf-492a-8ad3-eab68df63e4c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(sheetname "/ESP32-C3 + SX1281 Core (UFL)/")
+	(sheetfile "esp32c3_sx1281_lite.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -2.2 -1)
+		(end 2.2 1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "386db67c-bea1-4c9a-8a5b-feb81e4f8ed0")
+	)
+	(fp_circle
+		(center -1.6 0.8)
+		(end -1.57 0.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "03d15d27-6fe2-466b-a6a6-e4f372585dc4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "cf9d9142-9c18-45e3-aaba-3b42c6183d93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.58 0)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "1125bc6d-4169-4459-9ae6-0a05b0b54b73")
+	)
+	(pad "2" smd rect
+		(at 1.58 0)
+		(size 1 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "b92bd832-4dce-4f0b-af38-f285acd8e83e")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/RF_Antenna.3dshapes/Johanson_2450AT18x100.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

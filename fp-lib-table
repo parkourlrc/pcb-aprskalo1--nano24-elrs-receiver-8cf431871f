@@ -1,0 +1,5 @@
+(fp_lib_table
+ (lib (name "RX_V04")(type "KiCad")(uri "${KIPRJMOD}/libraries/V04.pretty")(options "")(descr "Printed antenna revision 0.4"))
+ (lib (name "RX_Compact")(type "KiCad")(uri "${KIPRJMOD}/libraries/Compact.pretty")(options "")(descr "Compact core"))
+ (lib (name "OpenRX-Shared")(type "KiCad")(uri "${KIPRJMOD}/libraries/RX_Footprints.pretty")(options "")(descr "Reference footprints"))
+)

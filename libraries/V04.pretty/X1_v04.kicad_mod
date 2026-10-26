@@ -1,0 +1,178 @@
+(footprint "X1_v04"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "X1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "65d45127-0d13-43c8-9b4a-53d1bddeab24")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CJ17-400001010B20"
+		(at 0 4.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f078ac01-e1b9-4f3d-bbe5-ebe1a14f1261")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f8c1594c-f034-44d4-ad76-76e375871177")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d08cbdf-ca4c-4ec9-aa55-3e725b9735dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C2875272"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "65eedcbd-dd08-446a-bf2d-112b896a2528")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C2875272"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5a963f87-7ebb-4b9f-b920-3513ae0a12f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "JSCJ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46029685-519d-4633-a490-4c3e8c63650b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "CJ17-400001010B20"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be2a7390-8bb1-4d65-bfb2-532d1a4ff923")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/ESP32-C3 + SX1281 Core (UFL)/")
+	(sheetfile "esp32c3_sx1281_lite.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_circle
+		(center -0.6 0.45)
+		(end -0.5 0.45)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "bc7a4dbb-2b2f-4aad-ba56-d5e9c8c872c3")
+	)
+	(fp_rect
+		(start -1.05 -0.85)
+		(end 1.05 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5fbe8c8d-34c1-4b5c-b996-1ee5d98526d3")
+	)
+	(fp_circle
+		(center -0.8 0.6)
+		(end -0.77 0.6)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "77e7ab90-8aa3-44a9-ab1b-531448612a19")
+	)
+	(pad "1" smd rect
+		(at -0.55 0.4)
+		(size 0.73 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "dd36448c-137d-4ee6-aa4f-153147755c95")
+	)
+	(pad "2" smd rect
+		(at 0.55 0.4)
+		(size 0.73 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "5719a79f-40d8-4190-9cd7-2aae9783b336")
+	)
+	(pad "3" smd rect
+		(at 0.55 -0.4)
+		(size 0.73 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "4ed2c8c9-e804-4c50-9611-3418a5779d38")
+	)
+	(pad "4" smd rect
+		(at -0.55 -0.4)
+		(size 0.73 0.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0)
+		(uuid "bf1b132a-dc40-459a-836d-ae7539217713")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_WE_IQXC-26-4Pin_1.6x1.2mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

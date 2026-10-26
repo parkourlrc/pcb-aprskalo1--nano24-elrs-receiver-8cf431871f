@@ -1,0 +1,17 @@
+{
+  "AE1": "RX_V04:PCB_Meander_2G4_v04",
+  "TP1": "RX_V04:Castellated_WirePad_v04",
+  "TP2": "RX_V04:Castellated_WirePad_v04",
+  "TP3": "RX_V04:Castellated_WirePad_v04",
+  "TP4": "RX_V04:Castellated_WirePad_v04",
+  "TP5": "RX_V04:BootPad_Front_v04",
+  "X1": "RX_V04:X1_v04",
+  "L1": "RX_V04:L1_v04",
+  "C1": "RX_V04:C1_v04",
+  "C3": "RX_V04:C3_v04",
+  "C21": "RX_V04:C21_v04",
+  "C22": "RX_V04:C22_v04",
+  "L2": "RX_V04:L2_v04",
+  "R5": "RX_V04:R5_v04",
+  "C28": "RX_V04:C28_v04"
+}
